@@ -1,0 +1,14 @@
+class Car {
+    String brand = "Toyota";
+    String model = "Innova";
+
+    void display() {
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+    }
+
+    public static void main(String[] args) {
+        Car c = new Car();
+        c.display();
+    }
+}
